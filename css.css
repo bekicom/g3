@@ -5,3 +5,155 @@
     padding: 0;
     
 }
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+}
+nav>span{
+    width: 135px;
+height: 63px;
+left: 243px;
+top: 43px;
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 600;
+font-size: 50px;
+line-height: 63px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+.wrapp{
+    width: 1440px;
+    height: 1000px;
+    padding-left: 244px;
+    background: #FFFFFF;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    padding: 37px 23px 43px 20px;
+    gap: 57px;
+}
+.koli{
+    flex-direction: column;
+    padding-left: 36px;
+    
+    
+}
+.plus{
+    padding-left: 70px;
+    padding-top: 20px;
+    display: flex;
+ gap: 12px;
+}
+.jok{
+    width: 46px;
+height: 35px;
+left: 660px;
+top: 201px;
+display: flex;
+justify-content: center;
+align-items: center;
+background: #FFFFFF;
+}
+.jok>p{
+    width: 12px;
+height: 25px;
+left: 677px;
+top: 206px;
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+/* identical to box height */
+
+
+color: #000000;
+}
+.otmen{
+    padding-left: 79px;
+}
+.otmen>button{
+    background-color: #00000000;
+    border: none;
+}
+.plus>button{
+    width: 11px;
+height: 24px;
+left: 636px;
+top: 198px;
+
+border: none;
+background-color: #00000000;
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+
+color: #000000;
+}
+.otmen{
+    padding-top: 25px;
+}
+.lop{
+    width: 162px;
+height: 31px;
+left: 390px;
+top: 182px;
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 31px;
+
+color: #000000;
+}
+.lopi{
+    margin-top: 14px;
+    width: 65px;
+height: 25px;
+left: 390px;
+top: 227px;
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+/* identical to box height */
+
+
+color: #000000;
+}
+nav{
+    padding: 43px 0 29px 0px;
+}
+.rasm{
+    display: flex;
+}
+img{
+    width: 90px;
+height: 90px;
+}
+.section{
+    width: 608px;
+height: 608px;
+left: 244px;
+top: 135px;
+
+background-repeat: no-repeat;
+background: #F1D5BB;
+border-radius: 3px;
+}
