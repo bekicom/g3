@@ -39,7 +39,6 @@ let mass = [{
 function mevalarBaza() {
     uio.innerHTML = ""
     mass.forEach((item,i)=>{
-    
     uio.innerHTML+=`
     
     
@@ -76,12 +75,12 @@ function mevalarBaza() {
 mevalarBaza()
 const minus = (i) => {
     if (mass[i].count > 0) {
-        mass[i].count = mevalar[i].count - 1
+        mass[i].count = mass[i].count - 1
     }
     mevalarBaza()
 }
 const plus = (i) => {
-    mass[i].count = mevalar[i].count + 1
+    mass[i].count = mass[i].count + 1
     mevalarBaza()
 }
 

@@ -152,8 +152,146 @@ height: 90px;
 height: 608px;
 left: 244px;
 top: 135px;
-
+display: flex;
 background-repeat: no-repeat;
 background: #F1D5BB;
 border-radius: 3px;
+}
+.up{
+    margin-left: 50px;
+    width: 403px;
+height: 256px;
+left: 893px;
+top: 135px;
+
+background: #F1D5BB;
+border-radius: 3px;
+padding: 22px 0 30px 40px;
+}
+.down{
+    width: 403px;
+height: 244px;
+left: 893px;
+top: 417px;
+margin-left: 50px;
+background: #FFFFFF;
+border: 1px solid #F1D5BB;
+border-radius: 3px;
+display: flex;
+flex-direction: column;
+padding: 32px 0 33px 40px;
+gap: 30px;
+}
+.y1{
+    width: 249px;
+height: 50px;
+left: 933px;
+top: 157px;
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 50px;
+
+color: #000000;
+}
+.lkj{
+    padding-top: 40px;
+    display: flex;
+    gap: 29px;
+}
+.y2{
+    width: 118px;
+height: 38px;
+left: 933px;
+top: 247px;
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 38px;
+/* identical to box height */
+
+
+color: rgba(0, 0, 0, 0.8);
+}
+.y3{
+    width: 97px;
+height: 38px;
+left: 1080px;
+top: 247px;
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 38px;
+/* identical to box height */
+
+
+color: rgba(0, 0, 0, 0.8);
+}
+.y4{
+    width: 365px;
+height: 78px;
+left: 933px;
+top: 313px;
+margin-top: 28px;
+background: #000000;
+
+left: 1017px;
+top: 333px;
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 38px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+.sp1{
+    width: 227px;
+height: 50px;
+left: 933px;
+top: 449px;
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 50px;
+
+color: #000000;
+}
+.sp2{
+    width: 365px;
+height: 78px;
+left: 933px;
+top: 524px;
+font-size: 30px;
+padding-left: 10px;
+background: #FFFFFF;
+border: 1px solid #F1D5BB;
+}
+.sp3{
+    width: 166px;
+height: 78px;
+left: 933px;
+top: 632px;
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 38px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+background: #000000;
 }
