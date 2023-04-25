@@ -28,8 +28,88 @@ line-height: 63px;
 
 color: #000000;
 }
+.tayoq {
+    width: 132px;
+    height: 852px;
+    background-color: #000000;
+    border-radius: 25px;
+    margin-top: 30px;
+    margin-left: 19px;
+    overflow-x: hidden;
+    box-shadow: 20px 1px 50px black;
+    position: absolute;
+    left: 40px;
+    top: 20px;
+}
+.fght>img{
+    width: 40px;
+    height: 40px;
+}
+.fght>a>img{
+    width: 40px;
+    height: 40px;
+}
+.bola1 {
+    width: 100%;
+    height: calc(100% / 6);
+    background: #0C0B0B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bola2 {
+    width: 100%;
+    height: calc(100% / 6);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.bola3 {
+    width: 100%;
+    height: calc(100% / 6);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F1D5BB;
+}
+
+.bola4 {
+    width: 100%;
+    height: calc(100% / 6);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bola5 {
+    width: 100%;
+    height: calc(100% / 6);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bola6 {
+    width: 100%;
+    height: calc(100% / 6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.p1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    color: #F1D5BB;
+}
 .wrapp{
+    position: relative;
     width: 1440px;
     height: 1000px;
     padding-left: 244px;
