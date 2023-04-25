@@ -7,10 +7,103 @@
     <title>Document</title>
 </head>
 <body>
-<<<<<<< HEAD
-    <span>salomg</span>
-=======
-  
->>>>>>> 86f7dec56f40f7a733f30ba905bafcb60913c7a1
+    
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+            *{margin: 0;padding: 0;box-sizing: border-box;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+    .q1{width: 100%;height: 100vh;background-color: #E5E5E5;display: flex;align-items: center;justify-content: center;}
+    .q2{width: 600px;height: 450px;background-color: white;display: flex;} 
+    .chap{width: 15%;height: 100%;}
+    .q3{width: 350px;height: 400px;background-color: #E5E5E5;}
+    .w1{font-family: 'Mulish';font-style: normal;font-weight: 600;color: #000000;margin: 5px;}
+    .e1{width: 130px;height: 45px;left: 587px;top: 343px;background: #FFFFFF;border-radius:2px;margin-left: 55px;margin-top: 40px;}
+    .e3{width: 130px;height: 45px;left: 587px;top: 343px;background: #FFFFFF;border-radius:2px;margin-left: 55px;margin-top: 15px;}
+    .e2{width: 130px;height: 45px;left: 587px;top: 343px;background: #FFFFFF;border-radius:2px;}
+    button{border: none;}
+    .tayoq{width: 52px;height: 352px;background-color: #000000;border-radius: 25px;margin-top: 30px;margin-left: 19px;overflow-x: hidden;}
+    .bola1{width: 100%;height: calc(100% / 6);background: #0C0B0B;display: flex;align-items: center;justify-content: center;}
+    .bola2{width: 100%;height: calc(100% / 6);color: white;display: flex;align-items: center;justify-content: center;}
+    .bola3{width: 100%;height: calc(100% / 6);color: white;display: flex;align-items: center;justify-content: center;}
+    .bola4{width: 100%;height: calc(100% / 6);color: white;display: flex;align-items: center;justify-content: center;}
+    .bola5{width: 100%;height: calc(100% / 6);color: white;display: flex;align-items: center;justify-content: center;}
+    .bola6{width: 100%;height: calc(100% / 6);display: flex;align-items: center;justify-content: center;}
+    .p1{font-style: normal;font-weight: 400;font-size: 40px;color: #F1D5BB;}
+    .p3{width: 20px;height: 20px;}
+    .p6{width: 20px;height: 20px;}
+        </style>
+    </head>
+    <body>
+        <div class="q1">
+            <div class="q2">
+                <div class="chap">
+                    <div class="tayoq">
+                        <div class="bola1"><p class="p1">s.</p></div>
+                        <div class="bola2" onclick="uyCha()"><i class="fa-solid fa-house p2"></i></div>
+                        <div class="bola3" onclick="vilkaCha()"><img src="./img/vilka org.png" alt="" class="p3"></div>
+                        <div class="bola4" onclick="cartCha()"><i class="fa-solid fa-cart-shopping" class="p4"></i></div>
+                        <div class="bola5" onclick="markCha()"><i class="fa-solid fa-location-dot p5"></i></div>
+                        <div class="bola6" onclick="exitCha()"><img src="./img/eshik.png" alt="" class="p6"></div>
+                    </div>
+                </div>
+                <div class="ong">
+            <h1 class="w1">MENU</h1>            
+                    <div class="q3">
+                        <button onclick="aboutON()" class="e1 e">ABOUT</button>
+                        <button onclick="menuON()" class="e2 w">MENU</button>
+                        <br>
+                        <button onclick="aboutON()" class="e3 e">ABOUT</button>
+                        <button onclick="menuON()" class="e2 w">MENU</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    
+    <script>
+        const uy = document.querySelector("bola2")
+    function uyCha() {
+        alert("siz uychani bosdingiz")
+    }
+    
+    const vilka = document.querySelector("bola3")
+    function vilkaCha() {
+        alert("siz vilkani bosdingiz")
+    }
+    
+    const cart = document.querySelector("bola4")
+    function cartCha() {
+        alert("siz cartni bosdingiz")
+    }
+    
+    const nimadir = document.querySelector("bola5")
+    function markCha() {
+        alert("siz manzilni bosdingiz")
+    }
+    
+    
+    const exit = document.querySelector("bola6")
+    function exitCha() {
+        alert("siz exitni bosdingiz")
+    }
+    
+    const about = document.querySelector("e")
+    function aboutON() {
+        alert("siz aboutni bosdingiz")
+    }
+    
+    const menu = document.querySelector("w")
+    function menuON() {
+        alert("siz menuni bosdingiz")
+    }
+    </script>
+    </body>
+    </html>
 </body>
 </html>
