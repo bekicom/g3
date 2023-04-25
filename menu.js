@@ -32,3 +32,4 @@ const menu = document.querySelector("w")
 function menuON() {
     alert("siz menuni bosdingiz")
 }
+
